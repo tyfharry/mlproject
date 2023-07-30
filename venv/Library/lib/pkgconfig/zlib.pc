@@ -1,0 +1,13 @@
+prefix=D:/slrproject/venv/Library
+exec_prefix=D:/slrproject/venv/Library
+libdir=D:/slrproject/venv/Library/lib
+sharedlibdir=D:/slrproject/venv/Library/lib
+includedir=D:/slrproject/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
